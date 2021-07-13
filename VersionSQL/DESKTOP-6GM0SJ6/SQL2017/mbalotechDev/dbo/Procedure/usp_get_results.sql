@@ -2,4 +2,7 @@
 
 CREATE proc [dbo].[usp_get_results]
 as
-select top 100 * from dbo.snp500_update
+select 
+	top 100 * 
+from 
+	dbo.snp500_update
