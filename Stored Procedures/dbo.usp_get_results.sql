@@ -6,7 +6,7 @@ GO
 CREATE proc [dbo].[usp_get_results]
 as
 select 
-	top 1000 * 
+	top 10 * 
 from 
 	dbo.snp500_update
 GO
