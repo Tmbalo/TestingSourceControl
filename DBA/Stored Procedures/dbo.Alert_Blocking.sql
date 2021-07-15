@@ -11,7 +11,7 @@ CREATE PROCEDURE [dbo].[Alert_Blocking]
     @Debug tinyint = 0
 AS
 /*************************************************************************************************
-AUTHOR: Andy Mallon
+AUTHOR: Thozamile Mbalo
 CREATED: 20141218
     This procedure checks for blocking exceeding a duration of @BlockingDurationThreshold.
     Log the lead blocker to a table (only when not in @Debug mode).
