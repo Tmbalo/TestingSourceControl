@@ -1,0 +1,2 @@
+ALTER ROLE [db_datareader] ADD MEMBER [PGWC\C0761224]
+GO
