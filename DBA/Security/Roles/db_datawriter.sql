@@ -1,0 +1,2 @@
+ALTER ROLE [db_datawriter] ADD MEMBER [PGWC\C0761224]
+GO

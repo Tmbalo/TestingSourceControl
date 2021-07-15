@@ -1,0 +1,5 @@
+IF NOT EXISTS (SELECT * FROM master.dbo.syslogins WHERE loginname = N'VM-BIOD-SQL01\tapsadmin')
+CREATE LOGIN [VM-BIOD-SQL01\tapsadmin] FROM WINDOWS
+GO
+CREATE USER [VM-BIOD-SQL01\tapsadmin] FOR LOGIN [VM-BIOD-SQL01\tapsadmin]
+GO

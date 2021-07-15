@@ -1,0 +1,4 @@
+CREATE ROLE [db_sp_creator]
+AUTHORIZATION [dbo]
+GO
+GRANT CREATE PROCEDURE TO [db_sp_creator]

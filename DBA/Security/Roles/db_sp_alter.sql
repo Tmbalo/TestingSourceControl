@@ -1,0 +1,3 @@
+CREATE ROLE [db_sp_alter]
+AUTHORIZATION [dbo]
+GO
